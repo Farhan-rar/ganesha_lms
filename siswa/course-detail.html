@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css"> 
+    <link rel="stylesheet" href="../public/css/dashboard-siswa.css">
+    <link rel="stylesheet" href="../public/css/homepage.css">
+    <link rel="stylesheet" href="../public/css/course-detail.css">
+    <script src="https://kit.fontawesome.com/d47afdaaec.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h5>Hi, Jerome</h5>
+      <div class="profile-siswa">
+        <img src="../public/img/pf.jfif" alt="">
+      </div>
+    </header>
+  </div>
+  
+  <div class="header-info">
+    <div class="profil">
+      <div class="round" id="logo">
+        <img src="../public/img/ganesha.jpg" alt="">
+      </div>
+      <h2>E - Ganesha</h2>
+    </div>
+
+    <div class="dropdown">
+      <nav aria-labelledby="" class="ddwn">
+        <ul>
+          <li><a href="#">Information</a>
+            <ul>
+              <li><a href="#">Perkuliahan</a></li>
+              <li><a href="#">Sistem Pembelajaran</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a>
+            <ul>
+              <li><a href="#">Sejarah E-Ganesha</a></li>
+              <li><a href="#">Tentang E-Ganesha</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+
+  <div class="title-text">
+    <h4>Matematika, <h4>Angkatan 4</h4> </h4>
+  </div>
+
+    <div class="container">
+        <section class="course-detail">
+          <div class="row">
+            <div class="col-lg-4">
+                <ul>
+                  <li>Tema 1</li>
+                      <ul>
+                          <li>{{$data}}</li>
+                          <li></li>
+                          <li></li>
+                      </ul>
+                </ul>
+            </div>
+            <div class="col-lg-8">
+                <iframe type="application/pdf" src="../public/document/1630595338275_Mg2-Konsep-dasar-elearning.pdf" frameborder="1" style="width: 100%; height: 600px;"></iframe>
+            </div>
+          </div>
+        </section>
+    </div>
+  <script src="../public/js/bootstrap.js"></script>
+</body>
+</html>
